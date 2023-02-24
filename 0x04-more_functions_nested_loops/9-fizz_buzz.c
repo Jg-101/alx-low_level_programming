@@ -18,7 +18,7 @@ int main(void)
 		if (start % 3 != 0 && start % 5 != 0)
 			printf("%d", start);
 
-		_putchar(start == end ? '\n' : ' ');
+		putchar(start == end ? '\n' : ' ');
 		start++;
 	}
 	return (0);
