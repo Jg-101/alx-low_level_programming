@@ -3,7 +3,7 @@
  * _strpbrk - Searches a string for any of a set of bytes.
  *
  * @s: The string to be searched.
- * @a: The set of bytes to be searched for.
+ * @accept: accepted characters.
  *
  * Return: If a set os matched - a pointer to the matched byte.
  * if no set is mayched - NULL
