@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpn - eGets the length of a prefix substring.
+ * _strspn - eGets the length of a prefix substring.
  * @s: The string to be searched.
  * @accept: The prefix to be measured.
  *
