@@ -8,15 +8,14 @@
  */
 int is_prime_number(int n)
 {
-	int div = 0;
+	int _is_prime = 0;
 
-	if (n % div == 0)
-		return (0);
+	if (n < 2)
+		_is_prime = 0;
+	else if (n == 2)
+		_is_prime = 1;
+	else if (n % 2 == 1)
+		_is_prime = 1;
 
-	if (div == n / 2)
-		return (1);
-
-	result *= (is_prime_number(n, div + 1));
-
-	return (result);
+	return (_is_prime);
 }
