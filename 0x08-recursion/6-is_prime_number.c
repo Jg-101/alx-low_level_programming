@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime-number - checks if numb is divisible
+ * is_prime_number - checks ifnumber is prime.
  * @n: num to be checked
  *
  * Return: number is divisible - 0.
