@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - a main item
  * isNumeric - checks if string is num or not
- * check_num - check - string there are digit
- * @argv: array str
- * @argc: vector
+ * @str: string to be checked
  *
  * Return: Always 0 (Success)
  */
@@ -19,6 +16,13 @@ int isNumeric(const char *str)
 	}
 	return (1);
 }
+/**
+ * main - adds positive num
+ * @argc: array size
+ * @argv: array containing elements
+ *
+ * Return: 0 on success
+ */
 
 int main(int argc, char **argv)
 {
