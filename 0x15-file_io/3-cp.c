@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
 		}
 
 		c = write(to, buffer, b);
-		if (to == -1 ||c == -1)
+		if (to == -1 || c == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
