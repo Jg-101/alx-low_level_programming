@@ -1,8 +1,3 @@
-/*
- * File: 100-atoi.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
